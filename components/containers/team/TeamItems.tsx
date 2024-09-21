@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import One from "@/public/images/team/sajid.jpg";
-import Two from "@/public/images/team/fayyaz.jpg";
 import Three from "@/public/images/team/team-image-3.jpg";
 import Four from "@/public/images/team/haseeb.jpeg";
 import Five from "@/public/images/team/team-image5.jpg";
@@ -62,15 +61,15 @@ const TeamItems = () => {
           >
             <div className="team__item">
               <div className="image">
-                <Image src={Two} alt="Image" priority />
+                <Image src={Six} alt="Image" priority />
               </div>
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                   Fayyaz Ahmed
+                Junaid
                   </Link>
                 </h4>
-                <span className="text-white">CEO</span>
+                <span className="text-white">Software Engineer</span>
               </div>
               <div className="team__share">
                 <ul>
@@ -109,7 +108,7 @@ const TeamItems = () => {
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                    Bisma Fayyaz
+                Arslan
                   </Link>
                 </h4>
                 <span className="text-white">UI/UX Designer</span>
