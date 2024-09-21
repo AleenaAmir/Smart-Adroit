@@ -1,9 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import One from "@/public/images/team/sajid.jpg";
-import Two from "@/public/images/team/fayyaz.jpg";
 import Three from "@/public/images/team/team-image-3.jpg";
-
+import Six from "@/public/images/team/team-image6.jpg";
 const Team = () => {
   return (
     <section className="team-area pt-120 pb-120" id="team-two">
@@ -103,12 +102,12 @@ const Team = () => {
           >
             <div className="team__item">
               <div className="image">
-                <Image src={Two} alt="Image" priority />
+                <Image src={Six} alt="Image" priority />
               </div>
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                    Fayyaz Ahmed
+                  Faizan
                   </Link>
                 </h4>
                 <span className="text-white">
@@ -128,7 +127,7 @@ const Team = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.linkedin.com/in/fayyaz-ahmad-sqa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <Link href="">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                   </li>
@@ -147,12 +146,12 @@ const Team = () => {
           >
             <div className="team__item">
               <div className="image">
-                <Image src={Three} alt="Image" priority />
+                <Image src={Six} alt="Image" priority />
               </div>
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                    Bisma Fayyaz
+                   
                   </Link>
                 </h4>
                 <span className="text-white">UI/UX Designer</span>
